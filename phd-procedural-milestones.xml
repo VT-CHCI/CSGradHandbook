@@ -14,18 +14,14 @@
   </prolog>
   <conbody>
 
-    <p>Students seeking a PhD must successfully complete four major milestones: the <xref
-      href="phd-qualifying-process.xml"/>, the <xref href="phd-prelim.xml"/>, the <xref
-        href="phd-research-defense.xml"/>, and the <xref href="phd-final-defense.xml"/>.</p>
+    <p>Students seeking a PhD must successfully complete four major milestones: the <xref href="PHD%20Qualifying%20Process.xml"/>, the <xref href="PHD%20Prelim.xml"/>, the <xref href="PHD%20Research%20Defense.xml"/>, and the <xref href="PHD%20Final%20Defense.xml"/>.</p>
 
-    <p>These exams must be taken during an academic term in which the student is registered. For the
-      final exam, it is possible to register as a defense-only student, see <xref
-        href="start-of-semester-defense-exception.xml"/>.</p>
+    <p>These exams must be taken during an academic term in which the student is registered. For the final exam, it is possible to register as a defense-only student, see <xref href="Start%20of%20Semester%20Defense%20Exception.xml"/>.</p>
 
-    <p conref="reference.xml#lib/two-weeks-before"></p>
+    <p conref="Reference.xml#lib/two-weeks-before"></p>
 
-    <note conref="reference.xml#lib/prereq-final-exam"></note>
-    <note conref="reference.xml#lib/pos-and-exam-same-time"></note>
+    <note conref="Reference.xml#lib/prereq-final-exam"></note>
+    <note conref="Reference.xml#lib/pos-and-exam-same-time"></note>
 
   </conbody>
 </concept>
