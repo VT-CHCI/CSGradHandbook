@@ -24,9 +24,10 @@
 
       <p>The purpose of this handbook is to present the policies and procedures of the graduate program in the Department of Computer Science at Virginia Tech. The current version of the handbook is noted on the cover page of the PDF version of the document.</p>
       <ul>
-        <li audience="masters">The MS section (see <xref href="MS.xml"/>) covers all the information related to our three options under the MS degree.</li>
-        <li audience="phd">The PhD section (see <xref href="PHD.xml"/>) discusses the doctoral program in the department.</li>
-        <li> We offer one graduate certificate in HCI (see <xref href="HCI-certificate.xml"/>) and a degree option in BioInformatics (see <xref href="Bioinformatics.xml"/>). </li>
+        <li audience="masters">The MS section (see <xref href="ms.xml"/>) covers all the information related to our three options under the MS degree.</li>
+        <li audience="phd">The PhD section (see <xref href="phd.xml"/>) discusses the doctoral program in the department.</li>
+        <li> We offer one graduate certificate in HCI (see <xref href="hci-certificate.xml"/>) and a
+          degree option in BioInformatics (see <xref href="bioinformatics.xml"/>). </li>
         <li>The last section describes general information relevant to all graduate students in the Computer Science Department.</li>
       </ul>
 
@@ -48,7 +49,7 @@
         <row>
           <entry><xref href="http://www.cs.vt.edu/graduate/handbook" format="html" scope="external">Web Handbook</xref></entry>
           <entry>Full Handbook</entry>
-          <entry>Contains all the content, describing all degrees offered by the CS department. This is formated to be navigated and used on the web.</entry>
+          <entry>Contains all the content, describing all degrees offered by the CS department. This is formatted to be navigated and used on the web.</entry>
         </row>
 
         <row>

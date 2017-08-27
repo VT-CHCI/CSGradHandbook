@@ -70,79 +70,78 @@
   </keydef>
   
   
-  <topicref href="Reference.xml" processing-role="resource-only"/>
+  <topicref href="reference.xml" processing-role="resource-only"/>
 
-    <topicref href="About.xml" audience="masters phd">
-      <topicref href="Contacts.xml"/>
-    <topicref href="Graduate%20Council.xml"/>
-    <topicref href="Paperwork%20and%20Forms.xml"/>
+    <topicref href="about.xml" audience="masters phd">
+      <topicref href="contacts.xml"/>
+    <topicref href="graduate-council.xml"/>
+    <topicref href="paperwork-and-forms.xml"/>
   </topicref>
 
-    <topicref href="Degrees.xml">
+    <topicref href="degrees.xml">
       <topichead navtitle="Master of Science (MS)" audience="masters">
-      <topicref href="BSMS%20Program.xml"/>
-      <topicref href="MST%20Program.xml">
-        <topicref href="MST%20Requirement.xml"/>
-        <topicref href="MST%20Credit%20distribution.xml"/>
-        <topicref href="MST%20Advising%20Committee.xml"/>
-        <topicref href="MST%20Scheduling%20Exam.xml"/>
+      <topicref href="bsms-program.xml"/>
+      <topicref href="mst-program.xml">
+        <topicref href="mst-requirement.xml"/>
+        <topicref href="mst-credit-distribution.xml"/>
+        <topicref href="msc-advising-committees.xml"/>
+        <topicref href="mst-scheduling-exam.xml"/>
         <topicref href="etd.xml"/>
-        <topicref href="MST%20Schedule.xml"/>
+        <topicref href="mst-schedule.xml"/>
       </topicref>
-      <topicref href="MSC%20Program.xml">
-        <topicref href="MSC%20Requirement.xml"/>
-        <topicref href="MSC%20Credit%20distribution.xml"/>
-        <topicref href="MSC%20Scheduling%20Exam.xml"/>
-        <topicref href="MSC%20Advising%20Committee.xml"/>
-        <topicref href="MSC%20Schedule.xml"/>
+      <topicref href="msc-program.xml">
+        <topicref href="msc-requirement.xml"/>
+        <topicref href="msc-credit-distribution.xml"/>
+        <topicref href="msc-scheduling-exam.xml"/>
+        <topicref href="msc-advising-committees.xml"/>
+        <topicref href="msc-schedule.xml"/>
       </topicref>
-      <topicref href="MS%20Good%20Standing.xml"/>
-    </topichead>
+      <topicref href="ms-good-standing.xml"/>
+         </topichead>
 
-      <topicref href="PHD.xml" audience="phd">
-      <topicref href="PHD%20Requirement.xml"/>
-      <topicref href="PHD%20Credit%20distribution.xml"/>
-      <topicref href="PHD%20Advising%20Committee.xml"/>
-      <topicref href="PHD%20Procedural%20Milestones.xml">
-        <topicref href="PHD%20Qualifying%20Process.xml"/>
-        <topicref href="PHD%20Prelim.xml"/>
-        <topicref href="PHD%20Research%20Defense.xml"/>
-        <topicref href="PHD%20Final%20Defense.xml"/>
+      <topicref href="phd.xml" audience="phd">
+      <topicref href="phd-requirement.xml"/>
+        <topicref href="phd-credit-distribution.xml"/>
+        <topicref href="phd-advising-committee.xml"/>
+        <topicref href="phd-procedural-milestones.xml">
+          <topicref href="phd-qualifying-process.xml"/>
+          <topicref href="phd-prelim.xml"/>
+          <topicref href="phd-research-defense.xml"/>
+          <topicref href="phd-final-defense.xml"/>
         <topicref href="etd.xml"/>
       </topicref>
-      <topicref href="PHD%20MS%20Along%20the%20way.xml"/>
-      <topicref href="PHD%20Schedule.xml"/>
-      <topicref href="PHD%20Good%20Standing.xml"/>
+      <topicref href="phd-ms-along-the-way.xml"/>
+        <topicref href="phd-schedule.xml"/>
+        <topicref href="phd-good-standing.xml"/>
     </topicref>
 
       <topichead navtitle="Degree Options and Certificates" audience="masters phd">
-      <topicref href="Bioinformatics.xml"/>
-      <topicref href="HCI-certificate.xml"/>
+      <topicref href="bioinformatics.xml"/>
+      <topicref href="hci-certificate.xml"/>
     </topichead>
     </topicref>
   
     <topichead navtitle="Administrivia" audience="masters phd">
       <topichead navtitle="Academic Progress">
-        <topicref href="Plans%20of%20study.xml"/>
-        <topicref href="Student%20Activity%20Report.xml"/>
-        <topicref href="Green%20Thursday.xml"/>
-        <topicref href="Leave%20of%20Absense.xml"/>
-      </topichead>
+        <topicref href="plans-of-study.xml"/>
+        <topicref href="student-activity-report.xml"/>
+        <topicref href="green-thursday.xml"/>
+        <topicref href="leave-of-absence.xml"/>
+         </topichead>
       <topichead navtitle="Matriculation">
-        <topicref href="Course%20Registrations.xml">
-          <topicref href="Registration%20for%20CS5974.xml"/>
-        </topicref>
-        <topicref href="Courseload%20Expectations.xml"/>
-        <topicref href="Deficiencies.xml"/>
-        <topicref href="Transfer%20Credits.xml"/>
-        <topicref href="Dropping%20Courses.xml"/>
-        <topicref href="Start%20of%20Semester%20Defense%20Exception.xml"/>
-        <topicref href="Internships%20and%20Co-ops.xml"/>
-        <topicref href="Graduation.xml"/>
+        <topicref href="course-registrations.xml"/>
+          <topicref href="registration-for-CS5974.xml"/>
+            <topicref href="courseload-expectations.xml"/>
+        <topicref href="deficiencies.xml"/>
+        <topicref href="transfer-credits.xml"/>
+         <topicref href="dropping-courses.xml"/>
+        <topicref href="start-of-semester-defense-exception.xml"/>
+        <topicref href="internships-co-ops.xml"/>
+        <topicref href="graduation.xml"/>
       </topichead>
-      <topicref href="Funding.xml"/>
+      <topicref href="funding.xml"/>
       <topicref href="VTEOA.xml"/>
-      <topicref href="Honor%20Code.xml"/>
-      <topicref href="POC.xml"/>
+      <topicref href="honor-code.xml"/>
+      <topicref href="poc.xml"/>
     </topichead>
 </map>

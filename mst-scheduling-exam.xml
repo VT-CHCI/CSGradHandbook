@@ -12,12 +12,13 @@
   </prolog>
 
   <conbody>
-    <p>The MS Thesis option requires an oral final exam before the advisory committee. This exam must be taken during an academic term in which the student is registered (perhaps this registration will be as a defense-only student, see <xref href="Start%20of%20Semester%20Defense%20Exception.xml"/>).</p>
+    <p>The MS Thesis option requires an oral final exam before the advisory committee. This exam
+      must be taken during an academic term in which the student is registered (perhaps this registration will be as a defense-only student, see <xref href="start-of-semester-defense-exception.xml"/>).</p>
 
-    <p conref="Reference.xml#lib/two-weeks-before"></p>
+    <p conref="reference.xml#lib/two-weeks-before"></p>
 
-    <note conref="Reference.xml#lib/prereq-final-exam"></note>
-    <note conref="Reference.xml#lib/pos-and-exam-same-time"></note>
+    <note conref="reference.xml#lib/prereq-final-exam"></note>
+    <note conref="reference.xml#lib/pos-and-exam-same-time"></note>
 
   </conbody>
 

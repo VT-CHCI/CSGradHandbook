@@ -13,7 +13,11 @@
   </prolog>
   <conbody>
 
-<p>The department offers Masters of Science degree (see <xref href="MS.xml"/>) and a Doctoral degree (see <xref href="PHD.xml"/>) in Computer Science. In addition, by satisfying additional requirements, either of these degrees can be awarded with an annotation in the student’s transcript with a BioInformatics opion (see <xref href="Bioinformatics.xml"/>). We also have a certificate in Human-Computer Interaction (see <xref href="HCI-certificate.xml"/>) available.</p>
+<p>The department offers Masters of Science degree (see <xref href="ms.xml"/>) and a Doctoral degree
+  (see <xref href="phd.xml"/>) in Computer Science. In addition, by satisfying additional
+  requirements, either of these degrees can be awarded with an annotation in the student’s
+  transcript with a BioInformatics opion (see <xref href="bioinformatics.xml"/>). We also have a
+  certificate in Human-Computer Interaction (see <xref href="hci-certificate.xml"/>) available.</p>
 
   </conbody>
 </concept>
