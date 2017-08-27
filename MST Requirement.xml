@@ -18,14 +18,13 @@
       <p>To encourage Masters graduates to exhibit sufficient breadth of computer science areas, M.S. thesis students must take CS courses spanning four (4) different areas. The available courses and areas are listed in the department website (<xref href="http://www.cs.vt.edu/graduate/courses/areas" format="html" scope="external"/>).</p>
     </section>
 
-    <section id="seminar" conref="reference.xml#lib/seminar-requirement"></section>
+    <section id="seminar" conref="Reference.xml#lib/seminar-requirement"></section>
 
-    <section id="ethics" conref="reference.xml#lib/ethics-requirement"></section>
+    <section id="ethics" conref="Reference.xml#lib/ethics-requirement"></section>
 
     <section>
       <title>Final Exam Requirement</title>
-      <p>The primary procedural milestone for the M.S. thesis degree is the final exam, i.e. the
-        defense of the thesis, which typically happens in the fourth semester of graduate study. The final exam requirement for the M.S. thesis option requires that the student orally defend a written thesis before a suitably constituted advisory committee (see <xref href="msc-advising-committees.xml"/>). The written thesis must then be submitted to the graduate school where it will form part of the electronic theses and dissertations collection (see <xref href="etd.xml"/>).</p>
+      <p>The primary procedural milestone for the M.S. thesis degree is the final exam, i.e. the defense of the thesis, which typically happens in the fourth semester of graduate study. The final exam requirement for the M.S. thesis option requires that the student orally defend a written thesis before a suitably constituted advisory committee (see <xref href="MST%20Advising%20Committee.xml"/>). The written thesis must then be submitted to the graduate school where it will form part of the electronic theses and dissertations collection (see <xref href="etd.xml"/>).</p>
     </section>
 
   </conbody>
