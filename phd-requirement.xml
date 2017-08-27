@@ -18,9 +18,9 @@
         format="html" scope="external"/>).</p>
     </section>
 
-    <section id="seminar" conref="Reference.xml#lib/seminar-requirement"></section>
+    <section id="seminar" conref="reference.xml#lib/seminar-requirement"></section>
 
-    <section id="ethics" conref="Reference.xml#lib/ethics-requirement"></section>
+    <section id="ethics" conref="reference.xml#lib/ethics-requirement"></section>
 
   </conbody>
 </concept>

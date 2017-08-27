@@ -13,7 +13,7 @@
   </prolog>
   <conbody>
 
-    <p conref="Reference.xml#lib/good-standing"></p>
+    <p conref="reference.xml#lib/good-standing"></p>
     
     <p>These milestones are designed with the intention that an MS student will typically graduate two years after entering the graduate program. MS students retain their good standing by meeting all of the following:</p>
 
@@ -23,7 +23,7 @@
       <li>take any courses assigned as a background deficiency during the earliest possible academic term;</li>
 
       <li>remove any Incomplete course grade by the end of the next semester in which the student is enrolled; and</li>
-      <li>have an approved <xref href="Plans%20of%20Study.xml">Plan of Study</xref> on file no later than the end of the semester when the 15th credit hour is completed (normally the second semester in the program). This means that the student will also need to have decided whether to pursue the thesis option or coursework-only option by this time, and have identified a major advisor and an advisory committee.</li>
+      <li>have an approved <xref href="plans-of-study.xml">Plan of Study</xref> on file no later than the end of the semester when the 15th credit hour is completed (normally the second semester in the program). This means that the student will also need to have decided whether to pursue the thesis option or coursework-only option by this time, and have identified a major advisor and an advisory committee.</li>
     </ul>
 
     <p>Students who have any doubts about their standing should discuss this with their advisor (ARA) and/or the GD.</p>
