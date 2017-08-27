@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd" []>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="contacts">
   <title>Contacts and Roles</title>
 
@@ -27,10 +27,10 @@
 
     <p>As of this writing, the following people occupy the positions mentioned above:</p>
     <ul>
-      <li>GD/AGS is Dr. Kirk Cameron (540-231-4238, cameron@vt.edu, <xref href="http://www.cs.vt.edu/user/cameron" format="html" scope="external"/>).</li>
-      <li>AUS is Dr. Cal Ribbens (540-231-6262, ribbens@vt.edu, <xref href="http://www.cs.vt.edu/user/ribbens" format="html" scope="external"/>).</li>
-      <li>GC is Ms. Sharon Kinder-Potter (540-231-6932, KWII 1105, skpotter@vt.edu).</li>
-      <li>IAA is Dr. Sean Arthur (540-231-7538, KWII 2228, arthur@vt.edu, <xref href="http://www.cs.vt.edu/user/arthur" format="html" scope="external"/>).</li>
+      <li>GD/AGS is <ph keyref="gd-ags-name" />: <ph keyref="gd-ags-contact" /></li>
+      <li>AUS is <ph keyref="aus-name" />: <ph keyref="aus-contact" /></li> 
+      <li>GC is <ph keyref="gc-name" />: <ph keyref="gc-contact" /></li>
+      <li>IAA is <ph keyref="iaa-name" />: <ph keyref="iaa-contact" /></li>
     </ul>
 
 
