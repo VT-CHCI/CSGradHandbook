@@ -1,7 +1,9 @@
 /*
 
-Oxygen WebHelp Plugin
-Copyright (c) 1998-2017 Syncro Soft SRL, Romania.  All rights reserved.
+Oxygen Webhelp plugin
+Copyright (c) 1998-2014 Syncro Soft SRL, Romania.  All rights reserved.
+Licensed under the terms stated in the license file EULA_Webhelp.txt 
+available in the base directory of this Oxygen Webhelp plugin.
 
 */
 
@@ -32,11 +34,6 @@ var BrowserDetect = {
 		return parseFloat(dataString.substring(index+this.versionSearchString.length+1));
 	},
 	dataBrowser: [
-		{
-			string: navigator.userAgent,
-			subString: "Edge",
-			identity: "Edge"
-		},
 		{
 			string: navigator.userAgent,
 			subString: "Chrome",

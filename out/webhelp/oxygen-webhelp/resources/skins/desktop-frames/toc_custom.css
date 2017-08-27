@@ -1,15 +1,14 @@
 /*
 
-Oxygen WebHelp Plugin
-Copyright (c) 1998-2017 Syncro Soft SRL, Romania.  All rights reserved.
+Oxygen Webhelp plugin
+Copyright (c) 1998-2014 Syncro Soft SRL, Romania.  All rights reserved.
+Licensed under the terms stated in the license file EULA_Webhelp.txt 
+available in the base directory of this Oxygen Webhelp plugin.
 
 */
 
 html, body, #splitterContainer, #leftPane{
 	height: 100%;
-}
-#leftPane{
-    overflow: hidden;
 }
 div, td {
 font-size: 10pt;
@@ -42,19 +41,12 @@ h1.topictitle1 {
 }
 
 /*Navtree and Search Result*/
-#tab_nav_tree_placeholder, #searchResults, #webhelp_search_results{
+#tab_nav_tree_placeholder, #searchResults{
     height:90%;
 }
-#expnd {
-    top: -25px;
-    position: relative;
-}
-#tab_nav_tree_placeholder{
-    padding: 20px 0 0 0;
-}
+
 #bck_toc{
     padding:2px 0 0 0;
-    overflow: auto;
 }
 #bck_toc #searchBlock,#bck_toc #indexBlock, #bck_toc #contentBlock{
     border-top:1px solid #ccc;
