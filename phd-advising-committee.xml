@@ -14,8 +14,7 @@
   </prolog>
   <conbody>
 
-    <p>All graduate students have access to a faculty advisor who can help with both academic
-      advising (i.e., issues related to getting a degree) and career advising. PhD students, and MS students under the thesis option, should select a faculty member to act as their research and course advisor as early as possible in their academic career and definitely by the time their plan of study is due (see <xref href="plans-of-study.xml"/>). The advisor must be a full-time Virginia Tech faculty position with either a regular, emeritus, or courtesy appointment in the Department of Computer Science, and hold a Ph.D. or equivalent terminal degree.</p>
+    <p>All graduate students have access to a faculty advisor who can help with both academic advising (i.e., issues related to getting a degree) and career advising. PhD students, and MS students under the thesis option, should select a faculty member to act as their research and course advisor as early as possible in their academic career and definitely by the time their plan of study is due (see <xref href="Plans%20of%20study.xml"/>). The advisor must be a full-time Virginia Tech faculty position with either a regular, emeritus, or courtesy appointment in the Department of Computer Science, and hold a Ph.D. or equivalent terminal degree.</p>
 
     <p>In place of a single advisor, PhD students can instead choose two faculty members to serve as co-advisors. In this case, at least one of the co-advisors must be a full-time Virginia Tech faculty position with either a regular, emeritus, or courtesy appointment in the Department of Computer Science, and hold a Ph.D. or equivalent terminal degree. The advisor or co-advisors chair the student’s advisory committee. </p>
 
@@ -28,8 +27,7 @@
 
       <li>At least three members must hold tenure track or emeritus positions in the Department of Computer Science. </li>
 
-      <li>At least one member of the committee must be from outside the university. Note that
-        outside members must be approved by the Graduate School, see section <xref href="plans-of-study.xml"/> for details.</li>
+      <li>At least one member of the committee must be from outside the university. Note that outside members must be approved by the Graduate School, see section <xref href="Plans%20of%20Study.xml"/> for details.</li>
     </ul>
 
 
