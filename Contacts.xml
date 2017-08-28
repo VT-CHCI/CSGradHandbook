@@ -13,7 +13,20 @@
   </prolog>
   <conbody>
 
-    <p>All details of the graduate programs are the purview of the <b>Graduate Program Committee</b> (GPC). GPC is a a standing committee in the department with participation from faculty members along with a graduate student representative. The committee meets regularly and deliberates about all graduate program related matters. Every year new members are elected into GPC and the duration of their terms varies according to the size of the committee and other departmental responsibilities. The committee is chaired by the <b>Graduate Director</b> (GD), which in our department is the same person as the <b>Associate Head for Graduate Studies</b> (AGS). The department also has an <b>Associate Head for Undergraduate Studies</b> (AUS) who also interacts with graduate students in certain affairs.</p>
+    <p>All details of the graduate programs are the purview of the
+    <b>Graduate Program Committee</b> (GPC). GPC is a a standing
+    committee in the department with participation from faculty
+    members along with a graduate student representative. The
+    committee meets regularly and deliberates about all graduate
+    program related matters. Every year new members are elected into
+    GPC and the duration of their terms varies according to the size
+    of the committee and other departmental responsibilities. The
+    committee is chaired by the <b>Graduate Director</b> (GD), which
+    in our department is the same person as the <b>Associate
+    Department Head for Graduate Studies</b> (AGS). The department
+    also has an <b>Associate Department Head for Undergraduate
+    Studies</b> (AUS) who also interacts with graduate students in
+    certain affairs.</p>
 
     <p>Other personnel play significant role in the day to day operations of the graduate program. The graduate coordinator (GC), initial academic advisor (IAA), academic and research advisor (ARA), and graduate director (AGS) are the key contacts for all matters of graduate studies in Computer Science.</p>
 
@@ -25,14 +38,22 @@
 
     <p>The <b>Graduate Director</b> (GD) addresses program administration related issues, such as design, implementation, and evolution of graduate degrees and approvals of programs of study. In CS, the Graduate Director is the same person as the AGS. The AGS is the chair of the GPC. The AGS also works closely with the department head to make decisions pertaining to course registrations and financial assistance administered by the department (such as teaching assistantships and fellowships). The GC, IAA, and AGS work closely to cover all aspects pertaining to the successful functioning of the graduate program.</p>
 
-    <p>As of this writing, the following people occupy the positions mentioned above:</p>
-    <ul>
-      <li>GD/AGS is Dr. Kirk Cameron (540-231-4238, cameron@vt.edu, <xref href="http://www.cs.vt.edu/user/cameron" format="html" scope="external"/>).</li>
-      <li>AUS is Dr. Cal Ribbens (540-231-6262, ribbens@vt.edu, <xref href="http://www.cs.vt.edu/user/ribbens" format="html" scope="external"/>).</li>
-      <li>GC is Ms. Sharon Kinder-Potter (540-231-6932, KWII 1105, skpotter@vt.edu).</li>
-      <li>IAA is Dr. Sean Arthur (540-231-7538, KWII 2228, arthur@vt.edu, <xref href="http://www.cs.vt.edu/user/arthur" format="html" scope="external"/>).</li>
-    </ul>
+    <p>As of this writing, the following people occupy the positions
+    mentioned above:</p>
 
+    <ul>
+      <li>GD/AGS is Dr. Cliff Shaffer (540-231-4354, Torgersen 2000,
+      shaffer@vt.edu, <xref href="http://people.cs.vt.edu/shaffer"
+      format="html" scope="external"/>).</li> 
+      <li>AUS is Dr. Cal Ribbens (540-231-6262, ribbens@vt.edu, <xref
+      href="http://www.cs.vt.edu/user/ribbens" format="html"
+      scope="external"/>).</li>
+      <li>GC is Ms. Sharon Kinder-Potter (540-231-6932, KWII 1105,
+      skpotter@vt.edu).</li>
+      <li>IAA is Dr. Cliff Shaffer (540-231-4354, Torgersen 2000,
+      shaffer@vt.edu, <xref href="http://people.cs.vt.edu/shaffer"
+      format="html" scope="external"/>).</li>
+    </ul>
 
   </conbody>
 </concept>

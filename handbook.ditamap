@@ -15,7 +15,7 @@
       <topicref href="BSMS%20Program.xml"/>
       <topicref href="MST%20Program.xml">
         <topicref href="MST%20Requirement.xml"/>
-        <topicref href="MST%20Credit%20distribution.xml"/>
+        <topicref href="MST%20Credit%20Distribution.xml"/>
         <topicref href="MST%20Advising%20Committee.xml"/>
         <topicref href="MST%20Scheduling%20Exam.xml"/>
         <topicref href="etd.xml"/>
@@ -23,7 +23,7 @@
       </topicref>
       <topicref href="MSC%20Program.xml">
         <topicref href="MSC%20Requirement.xml"/>
-        <topicref href="MSC%20Credit%20distribution.xml"/>
+        <topicref href="MSC%20Credit%20Distribution.xml"/>
         <topicref href="MSC%20Scheduling%20Exam.xml"/>
         <topicref href="MSC%20Advising%20Committee.xml"/>
         <topicref href="MSC%20Schedule.xml"/>
@@ -33,7 +33,7 @@
 
       <topicref href="PHD.xml" audience="phd">
       <topicref href="PHD%20Requirement.xml"/>
-      <topicref href="PHD%20Credit%20distribution.xml"/>
+      <topicref href="PHD%20Credit%20Distribution.xml"/>
       <topicref href="PHD%20Advising%20Committee.xml"/>
       <topicref href="PHD%20Procedural%20Milestones.xml">
         <topicref href="PHD%20Qualifying%20Process.xml"/>
@@ -55,7 +55,7 @@
   
     <topichead navtitle="Administrivia" audience="masters phd">
       <topichead navtitle="Academic Progress">
-        <topicref href="Plans%20of%20study.xml"/>
+        <topicref href="Plans%20of%20Study.xml"/>
         <topicref href="Student%20Activity%20Report.xml"/>
         <topicref href="Green%20Thursday.xml"/>
         <topicref href="Leave%20of%20Absense.xml"/>

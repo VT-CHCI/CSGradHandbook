@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="16.0">
+<project version="19.0">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="16.0" xml:space="preserve">
+            <serialized version="19.0" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>profiling.conditions</String>
@@ -1062,6 +1062,9 @@
                                 <field name="useDITAVAL">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="shortcut">
+                                    <null/>
+                                </field>
                             </profileConditionsSetInfo>
                             <profileConditionsSetInfo>
                                 <field name="conditions">
@@ -1085,6 +1088,9 @@
                                 </field>
                                 <field name="useDITAVAL">
                                     <Boolean>false</Boolean>
+                                </field>
+                                <field name="shortcut">
+                                    <null/>
                                 </field>
                             </profileConditionsSetInfo>
                             <profileConditionsSetInfo>
@@ -1111,6 +1117,9 @@
                                 <field name="useDITAVAL">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="shortcut">
+                                    <null/>
+                                </field>
                             </profileConditionsSetInfo>
                         </profileConditionsSetInfo-array>
                     </entry>
@@ -1123,11 +1132,13 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>PHD (ePub)</String>
+                                        <String>Handbook (pdf)</String>
+                                        <String>WebHelp Handbook (full)</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
+                                        <String>DITAMAP</String>
                                         <String>DITAMAP</String>
                                     </list>
                                 </field>
@@ -1137,6 +1148,790 @@
                     <entry>
                         <String>scenarios</String>
                         <scenario-array>
+                            <ditaScenario>
+                                <field name="useXEP">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useAntennaHouse">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="baseDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="outputDir">
+                                    <String>${cfd}/out/pdf</String>
+                                </field>
+                                <field name="tempDir">
+                                    <String>${cfd}/temp/pdf</String>
+                                </field>
+                                <field name="transtype">
+                                    <String>pdf2</String>
+                                </field>
+                                <field name="filters">
+                                    <ditavalFilters>
+                                        <field name="useDitavalFilePath">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="useAppliedConditionSet">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="appliedConditionSet">
+                                            <null/>
+                                        </field>
+                                        <field name="ditavalFilePath">
+                                            <String></String>
+                                        </field>
+                                        <field name="simpleFiltersList">
+                                            <list/>
+                                        </field>
+                                    </ditavalFilters>
+                                </field>
+                                <field name="addOxygenJars">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="skinCssFile">
+                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
+                                </field>
+                                <field name="lastCustomSkinCssPath">
+                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
+                                </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String></String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>xep.failOnError</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>true</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <null/>
+                                                    <String>true</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx384m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <null/>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>Handbook (pdf)</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>DITAMAP</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>DITA-OT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </ditaScenario>
+                            <ditaScenario>
+                                <field name="useXEP">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useAntennaHouse">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="baseDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="outputDir">
+                                    <String>${cfd}/out/epub</String>
+                                </field>
+                                <field name="tempDir">
+                                    <String>${cfd}/temp/epub</String>
+                                </field>
+                                <field name="transtype">
+                                    <String>epub</String>
+                                </field>
+                                <field name="filters">
+                                    <ditavalFilters>
+                                        <field name="useDitavalFilePath">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="useAppliedConditionSet">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="appliedConditionSet">
+                                            <String>masters set</String>
+                                        </field>
+                                        <field name="ditavalFilePath">
+                                            <String></String>
+                                        </field>
+                                        <field name="simpleFiltersList">
+                                            <list/>
+                                        </field>
+                                    </ditavalFilters>
+                                </field>
+                                <field name="addOxygenJars">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="skinCssFile">
+                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
+                                </field>
+                                <field name="lastCustomSkinCssPath">
+                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
+                                </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String></String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.rellinks</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>all</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>none</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <null/>
+                                                    <String>none</String>
+                                                    <String>all</String>
+                                                    <String>nofamily</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx384m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <null/>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>MS (ePub)</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>DITAMAP</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>DITA-OT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </ditaScenario>
+                            <ditaScenario>
+                                <field name="useXEP">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useAntennaHouse">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="baseDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="outputDir">
+                                    <String>${cfd}/out/pdf</String>
+                                </field>
+                                <field name="tempDir">
+                                    <String>${cfd}/temp/pdf</String>
+                                </field>
+                                <field name="transtype">
+                                    <String>pdf2</String>
+                                </field>
+                                <field name="filters">
+                                    <ditavalFilters>
+                                        <field name="useDitavalFilePath">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="useAppliedConditionSet">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="appliedConditionSet">
+                                            <String>masters set</String>
+                                        </field>
+                                        <field name="ditavalFilePath">
+                                            <String></String>
+                                        </field>
+                                        <field name="simpleFiltersList">
+                                            <list/>
+                                        </field>
+                                    </ditavalFilters>
+                                </field>
+                                <field name="addOxygenJars">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="skinCssFile">
+                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
+                                </field>
+                                <field name="lastCustomSkinCssPath">
+                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
+                                </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String></String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>xep.failOnError</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>true</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <null/>
+                                                    <String>true</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx384m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <null/>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>MS Handbook (pdf)</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>DITAMAP</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>DITA-OT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </ditaScenario>
+                            <ditaScenario>
+                                <field name="useXEP">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useAntennaHouse">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="baseDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="outputDir">
+                                    <String>${cfd}/out/epub</String>
+                                </field>
+                                <field name="tempDir">
+                                    <String>${cfd}/temp/epub</String>
+                                </field>
+                                <field name="transtype">
+                                    <String>epub</String>
+                                </field>
+                                <field name="filters">
+                                    <ditavalFilters>
+                                        <field name="useDitavalFilePath">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="useAppliedConditionSet">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="appliedConditionSet">
+                                            <String>phd set</String>
+                                        </field>
+                                        <field name="ditavalFilePath">
+                                            <String></String>
+                                        </field>
+                                        <field name="simpleFiltersList">
+                                            <list/>
+                                        </field>
+                                    </ditavalFilters>
+                                </field>
+                                <field name="addOxygenJars">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="skinCssFile">
+                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
+                                </field>
+                                <field name="lastCustomSkinCssPath">
+                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
+                                </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String></String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.rellinks</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>all</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>none</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <null/>
+                                                    <String>none</String>
+                                                    <String>all</String>
+                                                    <String>nofamily</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx384m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <null/>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>PHD (ePub)</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>DITAMAP</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>DITA-OT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </ditaScenario>
                             <ditaScenario>
                                 <field name="useXEP">
                                     <Boolean>false</Boolean>
@@ -1184,6 +1979,9 @@
                                 <field name="lastCustomSkinCssPath">
                                     <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
                                 </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
                                 <field name="additionalAntArgs">
                                     <String></String>
                                 </field>
@@ -1211,14 +2009,14 @@
                                             <field name="type">
                                                 <Integer>4</Integer>
                                             </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
                                             <field name="possibleValues">
                                                 <String-array>
                                                     <null/>
                                                     <String>true</String>
                                                 </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
                                             </field>
                                         </ditaParameter>
                                     </list>
@@ -1287,6 +2085,9 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
                                     <null/>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
@@ -1373,6 +2174,9 @@
                                 <field name="lastCustomSkinCssPath">
                                     <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
                                 </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
                                 <field name="additionalAntArgs">
                                     <String></String>
                                 </field>
@@ -1400,15 +2204,15 @@
                                             <field name="type">
                                                 <Integer>4</Integer>
                                             </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
                                             <field name="possibleValues">
                                                 <String-array>
                                                     <null/>
                                                     <String>yes</String>
                                                     <String>no</String>
                                                 </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -1427,10 +2231,10 @@
                                             <field name="type">
                                                 <Integer>2</Integer>
                                             </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
                                             <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
                                                 <null/>
                                             </field>
                                         </ditaParameter>
@@ -1450,14 +2254,14 @@
                                             <field name="type">
                                                 <Integer>0</Integer>
                                             </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
                                             <field name="possibleValues">
                                                 <String-array>
                                                     <String>no</String>
                                                     <String>yes</String>
                                                 </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
                                             </field>
                                         </ditaParameter>
                                     </list>
@@ -1528,764 +2332,7 @@
                                 <field name="outputFile">
                                     <null/>
                                 </field>
-                                <field name="openOtherLocationInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="locationToOpenInBrowserURL">
-                                    <String></String>
-                                </field>
-                                <field name="openInEditor">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInHTMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInXMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInSVGPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInResultSetPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useXSLTInput">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="xsltParams">
-                                    <list/>
-                                </field>
-                                <field name="cascadingStylesheets">
-                                    <String-array/>
-                                </field>
-                                <field name="xslTransformer">
-                                    <String>DITA-OT</String>
-                                </field>
-                                <field name="extensionURLs">
-                                    <String-array/>
-                                </field>
-                            </ditaScenario>
-                            <ditaScenario>
-                                <field name="useXEP">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useAntennaHouse">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="baseDir">
-                                    <String>${cfd}</String>
-                                </field>
-                                <field name="outputDir">
-                                    <String>${cfd}/out/epub</String>
-                                </field>
-                                <field name="tempDir">
-                                    <String>${cfd}/temp/epub</String>
-                                </field>
-                                <field name="transtype">
-                                    <String>epub</String>
-                                </field>
-                                <field name="filters">
-                                    <ditavalFilters>
-                                        <field name="useDitavalFilePath">
-                                            <Boolean>false</Boolean>
-                                        </field>
-                                        <field name="useAppliedConditionSet">
-                                            <Boolean>false</Boolean>
-                                        </field>
-                                        <field name="appliedConditionSet">
-                                            <String>masters set</String>
-                                        </field>
-                                        <field name="ditavalFilePath">
-                                            <String></String>
-                                        </field>
-                                        <field name="simpleFiltersList">
-                                            <list/>
-                                        </field>
-                                    </ditavalFilters>
-                                </field>
-                                <field name="addOxygenJars">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="skinCssFile">
-                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
-                                </field>
-                                <field name="lastCustomSkinCssPath">
-                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
-                                </field>
-                                <field name="additionalAntArgs">
-                                    <String></String>
-                                </field>
-                                <field name="buildTarget">
-                                    <String></String>
-                                </field>
-                                <field name="buildFilePath">
-                                    <String></String>
-                                </field>
-                                <field name="ditaParams">
-                                    <list>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>args.rellinks</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>all</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <String>none</String>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
-                                                    <null/>
-                                                    <String>none</String>
-                                                    <String>all</String>
-                                                    <String>nofamily</String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                    </list>
-                                </field>
-                                <field name="jvmArgs">
-                                    <String>-Xmx384m</String>
-                                </field>
-                                <field name="useCustomJavaHome">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="customJavaHomeDir">
-                                    <String></String>
-                                </field>
-                                <field name="useCustomANTHome">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="customANTHomeDir">
-                                    <String></String>
-                                </field>
-                                <field name="workingDir">
-                                    <null/>
-                                </field>
-                                <field name="showConsoleAlways">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="advancedOptionsMap">
-                                    <null/>
-                                </field>
-                                <field name="name">
-                                    <String>MS (ePub)</String>
-                                </field>
-                                <field name="baseURL">
-                                    <null/>
-                                </field>
-                                <field name="footerURL">
-                                    <null/>
-                                </field>
-                                <field name="fOPMethod">
-                                    <null/>
-                                </field>
-                                <field name="fOProcessorName">
-                                    <null/>
-                                </field>
-                                <field name="headerURL">
-                                    <null/>
-                                </field>
-                                <field name="inputXSLURL">
-                                    <null/>
-                                </field>
-                                <field name="inputXMLURL">
-                                    <null/>
-                                </field>
-                                <field name="defaultScenario">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="isFOPPerforming">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="type">
-                                    <String>DITAMAP</String>
-                                </field>
-                                <field name="saveAs">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="openInBrowser">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
-                                <field name="openOtherLocationInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="locationToOpenInBrowserURL">
-                                    <String></String>
-                                </field>
-                                <field name="openInEditor">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInHTMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInXMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInSVGPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInResultSetPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useXSLTInput">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="xsltParams">
-                                    <list/>
-                                </field>
-                                <field name="cascadingStylesheets">
-                                    <String-array/>
-                                </field>
-                                <field name="xslTransformer">
-                                    <String>DITA-OT</String>
-                                </field>
-                                <field name="extensionURLs">
-                                    <String-array/>
-                                </field>
-                            </ditaScenario>
-                            <ditaScenario>
-                                <field name="useXEP">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useAntennaHouse">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="baseDir">
-                                    <String>${cfd}</String>
-                                </field>
-                                <field name="outputDir">
-                                    <String>${cfd}/out/pdf</String>
-                                </field>
-                                <field name="tempDir">
-                                    <String>${cfd}/temp/pdf</String>
-                                </field>
-                                <field name="transtype">
-                                    <String>pdf2</String>
-                                </field>
-                                <field name="filters">
-                                    <ditavalFilters>
-                                        <field name="useDitavalFilePath">
-                                            <Boolean>false</Boolean>
-                                        </field>
-                                        <field name="useAppliedConditionSet">
-                                            <Boolean>false</Boolean>
-                                        </field>
-                                        <field name="appliedConditionSet">
-                                            <null/>
-                                        </field>
-                                        <field name="ditavalFilePath">
-                                            <String></String>
-                                        </field>
-                                        <field name="simpleFiltersList">
-                                            <list/>
-                                        </field>
-                                    </ditavalFilters>
-                                </field>
-                                <field name="addOxygenJars">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="skinCssFile">
-                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
-                                </field>
-                                <field name="lastCustomSkinCssPath">
-                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
-                                </field>
-                                <field name="additionalAntArgs">
-                                    <String></String>
-                                </field>
-                                <field name="buildTarget">
-                                    <String></String>
-                                </field>
-                                <field name="buildFilePath">
-                                    <String></String>
-                                </field>
-                                <field name="ditaParams">
-                                    <list>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>xep.failOnError</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>true</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
-                                                    <null/>
-                                                    <String>true</String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                    </list>
-                                </field>
-                                <field name="jvmArgs">
-                                    <String>-Xmx384m</String>
-                                </field>
-                                <field name="useCustomJavaHome">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="customJavaHomeDir">
-                                    <String></String>
-                                </field>
-                                <field name="useCustomANTHome">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="customANTHomeDir">
-                                    <String></String>
-                                </field>
-                                <field name="workingDir">
-                                    <null/>
-                                </field>
-                                <field name="showConsoleAlways">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="advancedOptionsMap">
-                                    <null/>
-                                </field>
-                                <field name="name">
-                                    <String>Handbook (pdf)</String>
-                                </field>
-                                <field name="baseURL">
-                                    <null/>
-                                </field>
-                                <field name="footerURL">
-                                    <null/>
-                                </field>
-                                <field name="fOPMethod">
-                                    <null/>
-                                </field>
-                                <field name="fOProcessorName">
-                                    <null/>
-                                </field>
-                                <field name="headerURL">
-                                    <null/>
-                                </field>
-                                <field name="inputXSLURL">
-                                    <null/>
-                                </field>
-                                <field name="inputXMLURL">
-                                    <null/>
-                                </field>
-                                <field name="defaultScenario">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="isFOPPerforming">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="type">
-                                    <String>DITAMAP</String>
-                                </field>
-                                <field name="saveAs">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="openInBrowser">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
-                                <field name="openOtherLocationInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="locationToOpenInBrowserURL">
-                                    <String></String>
-                                </field>
-                                <field name="openInEditor">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInHTMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInXMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInSVGPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInResultSetPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useXSLTInput">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="xsltParams">
-                                    <list/>
-                                </field>
-                                <field name="cascadingStylesheets">
-                                    <String-array/>
-                                </field>
-                                <field name="xslTransformer">
-                                    <String>DITA-OT</String>
-                                </field>
-                                <field name="extensionURLs">
-                                    <String-array/>
-                                </field>
-                            </ditaScenario>
-                            <ditaScenario>
-                                <field name="useXEP">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useAntennaHouse">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="baseDir">
-                                    <String>${cfd}</String>
-                                </field>
-                                <field name="outputDir">
-                                    <String>${cfd}/out/pdf</String>
-                                </field>
-                                <field name="tempDir">
-                                    <String>${cfd}/temp/pdf</String>
-                                </field>
-                                <field name="transtype">
-                                    <String>pdf2</String>
-                                </field>
-                                <field name="filters">
-                                    <ditavalFilters>
-                                        <field name="useDitavalFilePath">
-                                            <Boolean>false</Boolean>
-                                        </field>
-                                        <field name="useAppliedConditionSet">
-                                            <Boolean>false</Boolean>
-                                        </field>
-                                        <field name="appliedConditionSet">
-                                            <String>masters set</String>
-                                        </field>
-                                        <field name="ditavalFilePath">
-                                            <String></String>
-                                        </field>
-                                        <field name="simpleFiltersList">
-                                            <list/>
-                                        </field>
-                                    </ditavalFilters>
-                                </field>
-                                <field name="addOxygenJars">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="skinCssFile">
-                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
-                                </field>
-                                <field name="lastCustomSkinCssPath">
-                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
-                                </field>
-                                <field name="additionalAntArgs">
-                                    <String></String>
-                                </field>
-                                <field name="buildTarget">
-                                    <String></String>
-                                </field>
-                                <field name="buildFilePath">
-                                    <String></String>
-                                </field>
-                                <field name="ditaParams">
-                                    <list>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>xep.failOnError</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>true</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
-                                                    <null/>
-                                                    <String>true</String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                    </list>
-                                </field>
-                                <field name="jvmArgs">
-                                    <String>-Xmx384m</String>
-                                </field>
-                                <field name="useCustomJavaHome">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="customJavaHomeDir">
-                                    <String></String>
-                                </field>
-                                <field name="useCustomANTHome">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="customANTHomeDir">
-                                    <String></String>
-                                </field>
-                                <field name="workingDir">
-                                    <null/>
-                                </field>
-                                <field name="showConsoleAlways">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="advancedOptionsMap">
-                                    <null/>
-                                </field>
-                                <field name="name">
-                                    <String>MS Handbook (pdf)</String>
-                                </field>
-                                <field name="baseURL">
-                                    <null/>
-                                </field>
-                                <field name="footerURL">
-                                    <null/>
-                                </field>
-                                <field name="fOPMethod">
-                                    <null/>
-                                </field>
-                                <field name="fOProcessorName">
-                                    <null/>
-                                </field>
-                                <field name="headerURL">
-                                    <null/>
-                                </field>
-                                <field name="inputXSLURL">
-                                    <null/>
-                                </field>
-                                <field name="inputXMLURL">
-                                    <null/>
-                                </field>
-                                <field name="defaultScenario">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="isFOPPerforming">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="type">
-                                    <String>DITAMAP</String>
-                                </field>
-                                <field name="saveAs">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="openInBrowser">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
-                                <field name="openOtherLocationInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="locationToOpenInBrowserURL">
-                                    <String></String>
-                                </field>
-                                <field name="openInEditor">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInHTMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInXMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInSVGPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInResultSetPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useXSLTInput">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="xsltParams">
-                                    <list/>
-                                </field>
-                                <field name="cascadingStylesheets">
-                                    <String-array/>
-                                </field>
-                                <field name="xslTransformer">
-                                    <String>DITA-OT</String>
-                                </field>
-                                <field name="extensionURLs">
-                                    <String-array/>
-                                </field>
-                            </ditaScenario>
-                            <ditaScenario>
-                                <field name="useXEP">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useAntennaHouse">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="baseDir">
-                                    <String>${cfd}</String>
-                                </field>
-                                <field name="outputDir">
-                                    <String>${cfd}/out/epub</String>
-                                </field>
-                                <field name="tempDir">
-                                    <String>${cfd}/temp/epub</String>
-                                </field>
-                                <field name="transtype">
-                                    <String>epub</String>
-                                </field>
-                                <field name="filters">
-                                    <ditavalFilters>
-                                        <field name="useDitavalFilePath">
-                                            <Boolean>false</Boolean>
-                                        </field>
-                                        <field name="useAppliedConditionSet">
-                                            <Boolean>false</Boolean>
-                                        </field>
-                                        <field name="appliedConditionSet">
-                                            <String>phd set</String>
-                                        </field>
-                                        <field name="ditavalFilePath">
-                                            <String></String>
-                                        </field>
-                                        <field name="simpleFiltersList">
-                                            <list/>
-                                        </field>
-                                    </ditavalFilters>
-                                </field>
-                                <field name="addOxygenJars">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="skinCssFile">
-                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
-                                </field>
-                                <field name="lastCustomSkinCssPath">
-                                    <String>file:/Users/mapq/Dropbox/CurrentWork/Dept%20Admin/GPC%20(Head)/Handbook%20and%20Catalog/xml%20dita%20handbook/xml/skin.css</String>
-                                </field>
-                                <field name="additionalAntArgs">
-                                    <String></String>
-                                </field>
-                                <field name="buildTarget">
-                                    <String></String>
-                                </field>
-                                <field name="buildFilePath">
-                                    <String></String>
-                                </field>
-                                <field name="ditaParams">
-                                    <list>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>args.rellinks</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>all</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <String>none</String>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="isPredefined">
-                                                <Boolean>true</Boolean>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
-                                                    <null/>
-                                                    <String>none</String>
-                                                    <String>all</String>
-                                                    <String>nofamily</String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                    </list>
-                                </field>
-                                <field name="jvmArgs">
-                                    <String>-Xmx384m</String>
-                                </field>
-                                <field name="useCustomJavaHome">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="customJavaHomeDir">
-                                    <String></String>
-                                </field>
-                                <field name="useCustomANTHome">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="customANTHomeDir">
-                                    <String></String>
-                                </field>
-                                <field name="workingDir">
-                                    <null/>
-                                </field>
-                                <field name="showConsoleAlways">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="advancedOptionsMap">
-                                    <null/>
-                                </field>
-                                <field name="name">
-                                    <String>PHD (ePub)</String>
-                                </field>
-                                <field name="baseURL">
-                                    <null/>
-                                </field>
-                                <field name="footerURL">
-                                    <null/>
-                                </field>
-                                <field name="fOPMethod">
-                                    <null/>
-                                </field>
-                                <field name="fOProcessorName">
-                                    <null/>
-                                </field>
-                                <field name="headerURL">
-                                    <null/>
-                                </field>
-                                <field name="inputXSLURL">
-                                    <null/>
-                                </field>
-                                <field name="inputXMLURL">
-                                    <null/>
-                                </field>
-                                <field name="defaultScenario">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="isFOPPerforming">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="type">
-                                    <String>DITAMAP</String>
-                                </field>
-                                <field name="saveAs">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="openInBrowser">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="outputFile">
+                                <field name="outputResource">
                                     <null/>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
